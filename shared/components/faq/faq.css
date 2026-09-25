@@ -1,0 +1,118 @@
+.faq{
+    height: 100%;
+    min-height: 0;
+    box-sizing: border-box;
+    padding: clamp(0.75rem, 2vw, 2rem);
+    border: 1px solid;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction:column;
+}
+.faq__title{
+    margin: 0 0 1.5rem;
+}
+.faq__questions{
+    flex:1;
+    min-height:0;
+    display:flex;
+    flex-direction:column;
+    gap:clamp(0.25rem, 1vw, 0.75rem);
+    overflow-y:auto;
+    padding-right:0.5rem;
+    scrollbar-color: var(--faq-question-background) var(--section-background);
+    scrollbar-width: thin;
+}
+.faq__question{
+    flex:0 0 auto;
+    min-height:0;
+    display:flex;
+    flex-direction:column;
+    border:1px dashed;
+    border-radius:1rem;
+    overflow:hidden;
+}
+.faq__question-button{
+    width:100%;
+    min-height:0;
+    padding:clamp(0.4rem, 1vw, 1rem);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:0;
+    background:var(--faq-question-background, transparent);
+    color:var(--faq-question-text, inherit);
+    font:inherit;
+    text-align:left;
+    cursor:pointer;
+    overflow:hidden;
+}
+.faq__icon{
+    font-size:1.5rem;
+    line-height:1;
+}
+.faq__answer p{
+    padding:0 1rem 1rem;
+    margin:0;
+    background:var(--faq-answer-background, transparent);
+    color:var(--faq-answer-text, inherit);
+}
+/* Full FAQ page version */
+.faq--full-page .faq_questions{
+    flex:0 0 auto;
+    overflow:visible;
+}
+.faq--full-page .faq_question{
+    flex:0 0 auto;
+    min-height:auto;
+}
+@media (max-width: 700px) {
+    .faq {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        height: auto !important;
+        min-height: 0 !important;
+        overflow: visible;
+        box-sizing: border-box;
+    }
+
+    .faq__questions {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        min-height: 0;
+        gap: 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .faq__question {
+        width: 100%;
+        min-width: 0;
+        height: auto;
+        min-height: 0;
+        flex: 0 0 auto;
+        box-sizing: border-box;
+    }
+
+    .faq__question-button {
+        width: 100%;
+        min-width: 0;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        box-sizing: border-box;
+    }
+
+    .faq__answer {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .faq-full-page .faq__questions {
+        width: 100%;
+        max-width: 100%;
+    }
+}

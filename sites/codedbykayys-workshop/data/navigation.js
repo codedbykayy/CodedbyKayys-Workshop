@@ -1,0 +1,21 @@
+const navigation = {
+    logo: {
+        text:"",
+        image:"assets/moonbox.png",
+        alt:"Moonbox logo",
+        link:"index.html"
+    },
+    pages: [
+        {label: "Home", link:"index.html"},
+        {label: "Commissions", link:"pages/commissions/index.html"},
+        {label: "Schedule", link:"pages/schedule/index.html"},
+        {label: "FAQ", link:"pages/faq/index.html"},
+        {label: "Shop", link:"pages/shop/index.html"},
+        {label: "Gallery", link:"pages/gallery/index.html"},
+        {label: "Request a Website", link:"pages/commissions-v2/index.html"}
+    ],
+    button:{
+        label:"Shop my Etsy",
+        link:"https://www.etsy.com/shop/CodeWithKayy?ref=shop-header-name&listing_id=1307229078&from_page=listing"
+    }
+}
