@@ -19,7 +19,7 @@ const footer = {
             label: "Etsy",
             href: "https://www.etsy.com/shop/CodeWithKayy?ref=favs_updates_new_from_faved_shop&order=date_desc",
             external: true
-        }
+        },
     ],
     copyright: "© 2026 Coded by Kayy's Workshop"
 };
