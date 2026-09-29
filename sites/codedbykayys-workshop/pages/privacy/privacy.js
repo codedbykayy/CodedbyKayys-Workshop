@@ -11,3 +11,4 @@ privacyPage.appendChild(privacyPolicy);
 
 page.appendChild(navigationElement);
 page.appendChild(privacyPage);
+page.appendChild(footerElement);

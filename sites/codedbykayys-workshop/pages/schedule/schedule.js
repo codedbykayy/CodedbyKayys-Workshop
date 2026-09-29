@@ -21,3 +21,4 @@ calendarArea.appendChild(smallHoneycomb);
 page.appendChild(navigationElement);
 page.appendChild(heading);
 page.appendChild(calendarArea);
+page.appendChild(footerElement);

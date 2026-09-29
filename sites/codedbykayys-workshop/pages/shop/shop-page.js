@@ -3,3 +3,4 @@ const navigationElement = createNavigation(navigation);
 const shopElement = createShop(shop);
 page.appendChild(navigationElement);
 page.appendChild(shopElement);
+page.appendChild(footerElement);

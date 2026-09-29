@@ -3,6 +3,7 @@ const navigationElement = createNavigation(navigation);
 const commissionsElement = createCommissions(commissions);
 page.appendChild(navigationElement);
 page.appendChild(commissionsElement);
+page.appendChild(footerElement);
 const requestFormModal = createRequestFormModal(
     commissionRequestForm,
     {

@@ -3,3 +3,4 @@ const navigationElement = createNavigation(navigation);
 const galleryElement = createArtistGallery(gallery);
 page.appendChild(navigationElement);
 page.appendChild(galleryElement);
+page.appendChild(footerElement);

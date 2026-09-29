@@ -36,6 +36,7 @@ faqPage.appendChild(faqPanel);
 faqPage.appendChild(questionCard);
 page.appendChild(navigationElement);
 page.appendChild(faqPage);
+page.appendChild(footerElement);
 const questionForm = questionCard.querySelector(".faq-question-form");
 const formMessage = questionCard.querySelector(
     ".faq-question-form__message"
