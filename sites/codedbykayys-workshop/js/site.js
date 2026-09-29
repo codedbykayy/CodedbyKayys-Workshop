@@ -31,6 +31,7 @@ homepageLinks.right.forEach((item) => {
     link.textContent = item.label;
     rightArea.appendChild(link);
 });
+const footerElement = createFooter(footer);
 featureArea.appendChild(leftArea);
 featureArea.appendChild(heroElement);
 featureArea.appendChild(rightArea);
