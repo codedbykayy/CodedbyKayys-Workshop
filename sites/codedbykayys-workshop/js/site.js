@@ -37,3 +37,4 @@ featureArea.appendChild(heroElement);
 featureArea.appendChild(rightArea);
 page.appendChild(navigationElement);
 page.appendChild(featureArea);
+page.appendChild(footerElement);
