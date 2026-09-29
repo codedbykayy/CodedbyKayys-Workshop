@@ -2,7 +2,7 @@ const footer = {
     buttons: [
         {
             label: "Privacy Policy",
-            href: "./pages/privacy/index.html",
+            href: "/pages/privacy/index.html",
             external: false
         },
 
