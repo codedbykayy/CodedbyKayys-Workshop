@@ -9,7 +9,7 @@ const privacy = {
 
     sections: [
         {
-            title: "Information We Collect",
+            title: "Information I Collect",
             paragraphs: [
                 "When you submit a request through this website, you may voluntarily provide information including your email address, preferred name, project details, creative preferences, and optional uploaded reference files."
             ]
@@ -41,7 +41,7 @@ const privacy = {
         {
             title: "Website Hosting",
             paragraphs: [
-                "This website is hosted through Netlify. Like most website hosting providers, Netlify may process basic technical information necessary to deliver, maintain, and secure the website."
+                "This website is hosted through Netlify or Github Pages. Like most website hosting providers, Netlify and Git may process basic technical information necessary to deliver, maintain, and secure the website."
             ]
         },
 
@@ -70,7 +70,7 @@ const privacy = {
         {
             title: "Your Information",
             paragraphs: [
-                "You may contact us to ask about, correct, or request deletion of personal information that we still control."
+                "You may contact us to ask about, correct, or request deletion of personal information that I still control."
             ]
         },
 
