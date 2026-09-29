@@ -2,7 +2,7 @@ const footer = {
     buttons: [
         {
         label: "Privacy Policy",
-        href: "/sites/codedbykayys-workshop/pages/privacy/index.html",
+        href: "/sites/pages/privacy/index.html",
         external: false
     }
 
