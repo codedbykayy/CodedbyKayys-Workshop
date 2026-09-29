@@ -16,7 +16,7 @@ const privacy = {
         },
 
         {
-            title: "How We Use Your Information",
+            title: "How I Use Your Information",
             paragraphs: [
                 "Information submitted through this website is used to review your request, communicate with you about your project, prepare quotes, discuss project requirements, and provide services you request.",
                 "Your personal information is not sold or rented for advertising."
