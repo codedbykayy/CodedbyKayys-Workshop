@@ -6,6 +6,7 @@ const privacyPage = document.createElement("section");
 privacyPage.className = "privacy-page";
 
 const privacyPolicy = createPrivacyPolicy(privacy);
+const footerElement = createFooter(footer);
 
 privacyPage.appendChild(privacyPolicy);
 

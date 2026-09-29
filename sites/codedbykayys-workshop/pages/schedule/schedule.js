@@ -15,6 +15,7 @@ const smallHoneycomb = document.createElement("img");
 smallHoneycomb.className = "schedule-honeycomb schedule-honeycomb--small";
 smallHoneycomb.src = "../../assets/yellowspool.png";
 smallHoneycomb.alt = "";
+const footerElement = createFooter(footer);
 calendarArea.appendChild(calendarPanel);
 calendarArea.appendChild(largeHoneycomb);
 calendarArea.appendChild(smallHoneycomb);

@@ -31,6 +31,7 @@ const faqPanel = createFAQ({
 faqPanel.classList.add("faq--full-page");
 const questionCard = document.createElement("section");
 questionCard.className = "faq-question-card";
+const footerElement = createFooter(footer);
 faqPage.appendChild(faqIntro);
 faqPage.appendChild(faqPanel);
 faqPage.appendChild(questionCard);

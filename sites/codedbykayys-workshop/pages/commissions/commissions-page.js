@@ -1,6 +1,7 @@
 const page = document.querySelector("#site");
 const navigationElement = createNavigation(navigation);
 const commissionsElement = createCommissions(commissions);
+const footerElement = createFooter(footer);
 page.appendChild(navigationElement);
 page.appendChild(commissionsElement);
 page.appendChild(footerElement);
