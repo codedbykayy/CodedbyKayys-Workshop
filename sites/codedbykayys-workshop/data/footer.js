@@ -1,10 +1,10 @@
 const footer = {
     buttons: [
         {
-        label: "Privacy Policy",
-        href: "/sites/codedbykayys-workshop/pages/privacy/index.html",
-        external: false
-    }
+            label: "Privacy Policy",
+            href: "/CodedbyKayys-Workshop/sites/codedbykayys-workshop/pages/privacy/index.html",
+            external: false
+        },
 
         {
             label: "Instagram",
@@ -14,13 +14,13 @@ const footer = {
 
         {
             label: "YouTube",
-            href: "https://www.youtube.com/@CodedbyKayy",
+            href: "https://www.youtube.com/@CodedbyKay",
             external: true
         },
 
         {
             label: "Etsy",
-            href: "https://www.etsy.com/shop/CodeWithKayy?ref=favs_updates_new_from_faved_shop&order=date_desc",
+            href: "YOUR-ETSY-LINK",
             external: true
         }
     ],
