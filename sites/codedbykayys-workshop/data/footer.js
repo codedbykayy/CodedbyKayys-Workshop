@@ -1,10 +1,10 @@
 const footer = {
     buttons: [
         {
-            label: "Privacy Policy",
-            href: "/pages/privacy/index.html",
-            external: false
-        },
+        label: "Privacy Policy",
+        href: "/sites/codedbykayys-workshop/pages/privacy/index.html",
+        external: false
+    }
 
         {
             label: "Instagram",
