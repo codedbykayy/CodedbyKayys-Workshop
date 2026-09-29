@@ -12,7 +12,7 @@ const footer = {
         },
         {
             label: "YouTube",
-            href: "https://www.youtube.com/@CodedbyKay",
+            href: "https://youtube.com/@codedbykayy?si=oZf802LNszYQVHQi",
             external: true
         },
         {
